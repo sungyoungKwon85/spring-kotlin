@@ -1,10 +1,9 @@
-package com.kkwonsy.spring.kotlin
+package com.kkwonsy.spring.kotlin.helloworld
 
 import org.springframework.beans.factory.annotation.Value
-import org.springframework.stereotype.Service
 
 //@Service
-class ExampleService : ServiceInterface{
+class ExampleService : ServiceInterface {
 
     @Value(value = "\${service.message.text:ola}")
     private lateinit var text: String

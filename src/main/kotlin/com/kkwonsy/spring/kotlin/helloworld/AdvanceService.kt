@@ -1,4 +1,4 @@
-package com.kkwonsy.spring.kotlin
+package com.kkwonsy.spring.kotlin.helloworld
 
 import org.springframework.beans.factory.annotation.Value
 
