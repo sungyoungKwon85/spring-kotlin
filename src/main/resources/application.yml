@@ -8,3 +8,7 @@ service:
   message:
     text: hihi
     type: advance
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
