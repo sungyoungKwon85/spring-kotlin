@@ -3,7 +3,7 @@ package com.kkwonsy.spring.kotlin
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Service
 
-@Service
+//@Service
 class ExampleService : ServiceInterface{
 
     @Value(value = "\${service.message.text:ola}")
