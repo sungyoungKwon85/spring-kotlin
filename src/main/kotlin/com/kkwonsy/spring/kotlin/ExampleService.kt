@@ -3,7 +3,7 @@ package com.kkwonsy.spring.kotlin
 import org.springframework.stereotype.Service
 
 @Service
-class ExampleService {
+class ExampleService : ServiceInterface{
 
-    fun getHello(name: String) = "hello $name"
+    override fun getHello(name: String) = "hello $name"
 }

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody
 class DemoApplication
 
 @Controller
-class FirstController(val exampleService: ExampleService) {
+class FirstController(val exampleService: ServiceInterface) {
 
 //    @Autowired
 //    lateinit var exampleService: ExampleService
