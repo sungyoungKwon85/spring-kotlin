@@ -3,3 +3,8 @@ one:
   value: 100
 another:
   value: 20
+
+service:
+  message:
+    text: hihi
+    type: advance
