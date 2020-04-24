@@ -4,7 +4,6 @@
 * Kotlin
 * Spring
 * REST API
-* Reactive
 * Gradle
 
 
